@@ -556,6 +556,18 @@ video {
   --tw-contain-style:  ;
 }
 
+.absolute{
+  position: absolute;
+}
+
+.relative{
+  position: relative;
+}
+
+.top-0{
+  top: 0px;
+}
+
 .m-4{
   margin: 1rem;
 }
@@ -570,6 +582,10 @@ video {
 
 .ml-2{
   margin-left: 0.5rem;
+}
+
+.mt-2{
+  margin-top: 0.5rem;
 }
 
 .block{
@@ -606,6 +622,10 @@ video {
 
 .rounded{
   border-radius: 0.25rem;
+}
+
+.rounded-full{
+  border-radius: 9999px;
 }
 
 .border-b{
@@ -647,6 +667,16 @@ video {
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
 }
 
+.bg-amber-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 230 138 / var(--tw-bg-opacity));
+}
+
+.bg-amber-100{
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 243 199 / var(--tw-bg-opacity));
+}
+
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -654,6 +684,10 @@ video {
 
 .p-4{
   padding: 1rem;
+}
+
+.p-2{
+  padding: 0.5rem;
 }
 
 .px-16{
@@ -687,6 +721,11 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xs{
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-bold{
@@ -729,6 +768,11 @@ video {
 .text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-amber-700{
+  --tw-text-opacity: 1;
+  color: rgb(180 83 9 / var(--tw-text-opacity));
 }
 
 .shadow{
